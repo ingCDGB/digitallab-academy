@@ -21,7 +21,7 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/ingCDGB/digitallab-academy/tree/feat-config-server #https://github.com/digitallab-academy/ms-course-youtube.git
+          uri: https://github.com/ingCDGB/digitallab-academy #https://github.com/digitallab-academy/ms-course-youtube.git
           searchPath: config-data
           username: ${GIT_USER} #Se utilizaran variables de entorno para que no se suban tu usuario/pass
           password: ${GIT_PASSWORD}
