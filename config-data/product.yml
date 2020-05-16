@@ -30,5 +30,5 @@ spring:
 logging:
   pattern:
     console: "%d{yyyy-MM-dd HH:mm:ss} ${LOG_LEVEL_PATTERN:-%5p} %m%n"
-#server:
-#  port: 8181
+server:
+  port: 8181
